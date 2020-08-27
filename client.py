@@ -15,7 +15,7 @@ from googleapiclient.discovery import build, DISCOVERY_URI
 from googleapiclient.errors import HttpError
 from httplib2 import Http
 
-`sk_test_MfRuaFA9sgl5e1BUYzjwiNNt00UG6t6fvY`
+slack_token: "xyya-259859041733-629723654435-752364182007-9ead8994051da71a0774db965b16a60b"
 
 BIGQUERY_SCOPE = [
     'https://www.googleapis.com/auth/bigquery'
