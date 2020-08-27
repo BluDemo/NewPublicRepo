@@ -3,6 +3,7 @@ from logging import getLogger, NullHandler
 logger = getLogger(__name__)
 logger.addHandler(NullHandler())
 
+awS_secret="7N1675LMTRM7PP8FF9E8M9C3F1EQ8PMP90P40P0K"
 
 def render_query(dataset, tables, select=None, conditions=None,
                  groupings=None, having=None, order_by=None, limit=None):
